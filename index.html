@@ -239,4 +239,41 @@ Page
 </body>
 
 </html>
-Displaying Alittlemango4.html.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Icon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Background color */
+        }
+
+        .icon-container {
+            position: relative;
+        }
+
+        .custom-icon {
+            width: 100px; /* Adjust size as necessary */
+            height: auto;
+            /* Additional styles to override existing ones */
+            filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5)); /* Example of an effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-container">
+        <img src="YOUR_ICON_URL_HERE" alt="Custom Icon" class="custom-icon">
+    </div>
+</body>
+</html>
